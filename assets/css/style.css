@@ -16,10 +16,10 @@ body {
     padding: 20px;
     text-align: center;
 }
-.socialicons{
-    position: fixed;
-    left: 10;
-    bottom: 0;
+.materialboxed{
+    position: absolute;
+    left: 3%;
+    bottom: 2%;
 }
 .footerFixed {
     position: fixed;
