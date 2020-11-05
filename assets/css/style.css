@@ -16,3 +16,24 @@ body {
     padding: 20px;
     text-align: center;
 }
+.socialicons{
+    position: fixed;
+    left: 10;
+    bottom: 0;
+}
+.footerFixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+}
