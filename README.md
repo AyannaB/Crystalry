@@ -12,7 +12,7 @@ check how it is made.
 	
 ## Setup 
 Project is made using an HTML editor. Recommended HTML editors to access the HTML file are [Notepad++](https://notepad-plus-plus.org/downloads/) and 
-[Atom](URL: https://atom.io/).
+[Atom](https://atom.io/).
 
 The CI and test automation frameworks for these respectively are:
 * **Buddy CI**, since it runs in parallel 
