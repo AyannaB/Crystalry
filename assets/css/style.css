@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color:rgb(207, 131, 169);
 }
 .bg-text {
     background-color: rgb(0, 0, 0);
@@ -39,4 +39,7 @@ body {
 }
 .crystalrylogo{
     left: 50%;
+}
+.navbar,.nav-extended,.tabs{
+    background-color: rgba(0, 0, 0, 0.4);
 }
