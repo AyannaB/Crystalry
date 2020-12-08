@@ -9,15 +9,40 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+<style>
+    body{
+        background: url('assets/images/CrystalryStillBackground.png');
+    }
+    p{
+        font-family: cursive;
+    }
+    .maindiv{
+        margin-top: 4%;
+        width: 60%;
+        height: 70%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-image: url('assets/images/CrystalrySlide0.jpeg');
+        background-size: 100% 100%;
+        box-shadow: 1px 2px 10px 5px white;
+        animation: slider 30s infinite linear;
+    }
+    @keyframes slider{
+        0%{background-image: url('assets/images/CrystalrySlide0.jpeg');}
+        10%{background-image: url('assets/images/CrystalrySlide1.jpeg');}
+        20%{background-image: url('assets/images/CrystalrySlide2.jpeg');}
+        30%{background-image: url('assets/images/CrystalrySlide3.jpeg');}
+        40%{background-image: url('assets/images/CrystalrySlide4.jpeg');}
+        50%{background-image: url('assets/images/CrystalrySlide5.jpeg');}
+        60%{background-image: url('assets/images/CrystalrySlide6.jpeg');}
+        70%{background-image: url('assets/images/CrystalrySlide7.jpeg');}
+        80%{background-image: url('assets/images/CrystalrySlide8.jpeg');}
+        90%{background-image: url('assets/images/CrystalrySlide9.jpeg');}
+    }
+</style>
 <body>
-
-<!-- Background Video -->
-<div class="vdiv">
-    <video autoplay muted loop>
-        <source src="assets/videos/Relax Trippy Psychedelic Pastel Kaleidoscope_00_02_39-00_03_05 - oDownloader.mp4"
-        type="video/mp4">
-    </video>
-</div>
 
 <!-- Nav Bar Code -->
 <div class="div2 absolute">
@@ -28,6 +53,12 @@
         <a href="crystals.html">Crystals</a>
         <a href="shop.html">Shop</a>
     </nav>
+</div>
+
+<h1>Welcome to Crystalry!</h1>
+<p>Handmade pieces with genuine crystals for protection, motivation, happiness, and more!</p>
+<div class="maindiv">
+
 </div>
 
 
